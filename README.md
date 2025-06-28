@@ -1,35 +1,38 @@
-# Nashville Crime & Service Call Analysis
+# Capstone Project: From Calls to Crimes – Analyzing Public Safety Trends in Nashville
 
-This project explores and visualizes police call volumes and confirmed incidents in Nashville from 2018 to 2021.
+## Overview  
+This project analyzes trends in 911 calls and police-reported crimes in Nashville from 2018 to 2024. The goal is to identify patterns, hotspots, and time-based shifts in public safety to support better policy decisions.
 
-## 🔍 Key Questions
+## Datasets  
+- **Primary Dataset:** Metro Nashville Police Department Incidents (2018–2024)  
+- **Supplemental Dataset:** Metro Nashville Police Department Calls for Service (2018–2024)
 
-1. Which ZIP codes have experienced the most significant increase in call volumes and incidents?
-2. Do more calls lead to more confirmed incidents?
-3. Which call types are more likely to be confirmed as real incidents or arrests?
-4. Are certain call types more often confirmed by shift or sector?
-5. How do call and crime trends change over time by shift and sector?
+## Key Questions  
+- Q1: What are the most frequent incident types by ZIP code?  
+- Q2: How do 911 calls correlate with actual reported crimes?  
+- Q3: What times of day and days of the week have the highest incident volume?  
+- Q4: Has the crime rate increased or decreased across quarters?  
+- Q5: What’s the average trip duration by TSP strategy and time of day?
 
-## 📁 Data
+## Tools Used  
+Python, Pandas, SQL, GeoPandas, Folium, Power BI
 
-- Combined 911 Service Calls (2018–2021)
-- Confirmed Crime Incidents (cleaned)
-- Nashville ZIP Code Shapefiles (GeoJSON)
+## Methodology  
+- Data Cleaning and Preprocessing  
+- Exploratory Data Analysis (EDA)  
+- Geospatial Visualization  
+- Time Series & Summary Insights
 
-## 🛠 Tools Used
+## How to Run  
+1. Clone the repo  
+2. Install dependencies (see `requirements.txt`)  
+3. Open and run the notebooks in order
 
-- Python (Pandas, Seaborn, GeoPandas)
-- Jupyter Notebook
-- Power BI (dashboard TBD)
-- Git / GitHub
+## Visuals  
+- Power BI Dashboard  
+- Interactive Folium Maps  
+- Time-based trend graphs  
+(Links or screenshots to be added)
 
-## 📊 Results Preview
-
-_Key charts and summary to be added._
-
-## 📌 Author
-
-**Jing You**  
-Data Analytics Student @ NSS  
-[GitHub Profile](https://github.com/Newbeebeep)
-
+## Contact  
+Jing You • jingyou@email.com • [LinkedIn](https://www.linkedin.com/in/jing-you84/)
