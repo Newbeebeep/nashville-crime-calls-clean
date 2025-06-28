@@ -23,13 +23,8 @@ Python, Pandas, SQL, GeoPandas, Folium, Power BI
 - Geospatial Visualization  
 - Time Series & Summary Insights
 
-## How to Run  
-1. Clone the repo  
-2. Install dependencies (see `requirements.txt`)  
-3. Open and run the notebooks in order
 
 ## Visuals  
-- Power BI Dashboard  
 - Interactive Folium Maps  
 - Time-based trend graphs  
 (Links or screenshots to be added)
