@@ -4,8 +4,8 @@
 This project analyzes trends in 911 calls and police-reported crimes in Nashville from 2018 to 2024. The goal is to identify patterns, hotspots, and time-based shifts in public safety to support better policy decisions.
 
 ## Datasets  
-- **Primary Dataset:** Metro Nashville Police Department Incidents (2018–2024)  
-- **Supplemental Dataset:** Metro Nashville Police Department Calls for Service (2018–2024)
+- **Primary Dataset:** Metro Nashville Police Department Incidents (2018–2021)  
+- **Supplemental Dataset:** Metro Nashville Police Department Calls for Service (2018–2021)
 
 ## Key Questions  
 - Q1: What are the most frequent incident types by ZIP code?  
@@ -15,7 +15,7 @@ This project analyzes trends in 911 calls and police-reported crimes in Nashvill
 - Q5: What’s the average trip duration by TSP strategy and time of day?
 
 ## Tools Used  
-Python, Pandas, SQL, GeoPandas, Folium, Power BI
+Python, Pandas, SQL, GeoPandas, Folium
 
 ## Methodology  
 - Data Cleaning and Preprocessing  
